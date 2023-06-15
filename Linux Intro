@@ -1,0 +1,66 @@
+From 1993 (approx)
+What is Linux?
+--------------
+   Linux is a *free* UNIX type opertating system. Linux
+supports multiple users and multiple simultaneous processes or
+programs. For example 5 users could be logged onto a single
+Linux system, and each user could be 'running' a different
+program, unaware that other users where connected at the same
+time. They could all even be using the same program at the same
+time!
+
+
+What hardware do I need for Linux?
+----------------------------------
+   Linux will only run on 386 and up processors, it does not
+support 286's. It needs a minimum of 2meg ram, though it will
+be happier with 4! Unlike DOS however, it is able to make full
+use of *all* the available memory. Linux also makes use of
+virtual memory, that is a swap partition on the hard disk will
+be utalised as memory when the ram becomes exhausted!
+You will need a hard disk of at least 60Mb, though a working
+system can be installed in as little as 20Mb. It supports all
+the ussual types of hard diks, SCSI, ESDI, MFM, IDE etc.
+Virtually all types of video/graphics cards are supported,
+CGA, EGA, VGA etc. Also supported are many types of network
+cards, sound cards, CD-ROM drives and tape drives.
+
+What can I use Linux for?
+-------------------------
+   There is a wealth of *free* software availale for Linux,
+spread sheets, databases, text editors, and loads of
+communications software. If you presently have a 386 PC or
+better dedicated to packet radio, then Linux could be for you!
+Imagine playing an adventure game on your PC, editing some
+text, dialling into a telepone BBS, *and* running your packet
+station, *all* at the same time!! All this and more is possile
+with Linux.
+
+Time for an example!!
+---------------------
+Here is an example of how I (g6phf) use my Linux system at
+home!
+My system runs on a 386DX40, with 4 meg of ram, and 12 meg of
+swap space. I have 4 serial ports, 2 are connected to KISS
+tnc's, one is on 4m, the other on 2m (144.625). Another serial
+port is hooked to my 14.4K telephone modem. The other is a link
+to my DOS pc in another room.
+On this system I run JNOS 1.09, (JNOS is a tcpip program), this
+is a special port for Linux, it supports *all* the dos features
+but without the annoying memory restarints of DOS!
+I also 	run a full featured telephone BBS (BayBBS), this allows
+users to dial into my system over the telephone, and download
+and upload files.  BayMUD, the multi user dungeon also runs on
+the same system. This allows users connecting via telephone and
+the radio, to take part and interact together in the lands of
+BayMUD.
+My system is also the UK hub of the Mugnet UUCP domain, but
+that is another story!
+
+
+In a nutshell
+-------------
+   So...if you want a full featured networking operating
+system, and if you are not too bothered about fancy colours and
+frills, and you have a reasonable understaing of DOS, but maybe
+want something more from your computer, then Linux is for you!!
