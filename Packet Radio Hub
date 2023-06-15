@@ -1,0 +1,13 @@
+Some information I put together back in the early 1990's about becoming a site/operator for
+a Packet Radio / AMPRNet hub/node.
+***
+Important notes for Hub SysOps.
+
+1)	MUST operate 24hrs
+2)	Must have a good understanding of the software (Nos etc) they use and also 	have a good knowledge of IP routing and bit masking.
+3)	Should be at low altitude, e.g. valley bottom, and not at a high location. 	Stations at high locations could possibly act as link stations for hubs.
+4)	MUST use only low power (only enough to server its users) on the user freq.
+5)	Should be willing to link to another hub station (or linking node) on a 	frequency other than the user frequency at some time in the future.
+6)	Must be willing to issue IP addresses to its users and forward these details on a 	regular basis to the regional co-ordinator for forwarding to the WW amprnet dns. (ucsd.edu).
+7)	Must be keen and enthusiastic to see a better and more structured network in 	place!
+8)	A full and clean driving licence is essential :-).
