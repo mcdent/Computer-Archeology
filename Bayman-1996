@@ -1,0 +1,146 @@
+                  The Bay Metropolitan Area Network.
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  The Bay Metropolitan Area Network, BayMAN, is a network of several computers
+connected via TCP/IP packet radio links. Each of the systems connected to the
+BayMAN provide a different user service but with a common user interface.
+  From all these systems it is possible to connect with packet radio systems
+in other countries and indeed with other systems in this country.
+  What I have tried to do below is give you some details on these systems
+and perhaps help you choose the best one for your needs and maybe give you a
+better understanding of how the BayMAN works and is connected.
+  At the bottom of this document you will find a link map which should help
+you to further visualise the layout and connections of the BayMAN.
+
+=============================================================================
+Common name:-	GB7MBB
+AX.25 call:-	none
+NetRom node:-	MBBBBS
+IP hostname:-	gb7mbb.ampr.org
+IP address:-	44.131.1.158
+Location:-	Morecambe, West/central.
+OS:-		Linux.
+PBBS:-		TNOS.
+SysOp:-		Mike, G6PHF.
+
+If you run TCP/IP in the area then GB7MBB could be the one for you. GB7MBB
+has a user port on 144.625MHz, this is for TCP/IP connections only and will
+not accept AX.25 connections. It is possible to reach this system from the
+WC21/42/90 nodes and from the other BayMAN nodes; G6CRV, G0VGS and G4RWO.
+GB7MBB operates as a full-service BBS, but does not carry a full selection
+of NTS bulletins, though if a user wants something specific this can usually
+be arranged.
+
+PORTS: A 9k6 baud ports connects to the international gateway. A 1200 baud port
+on 144.625MHz provides the TCP/IP user access and a 1200 baud 4m port links to
+the WC node complex.
+A 9k6 baud link is currently undergoing testing to G0VGS but is fully operat-
+ional. A 1k2 baud link to G4RWO (Barrow-in-Furness) is also operational but
+undergoing tests (this port is off-line at present 20/10/96).
+==============================================================================
+
+
+
+==============================================================================
+Common name:-	G6CRV
+AX.25 call:-    G6CRV-8
+NetRom node:-	CRVNOS
+IP hostname:-	g6crv.ampr.org
+IP address:-	44.131.1.61
+Location:-	Heysham.
+OS:-            Linux.
+PBBS:-          TNOS.
+SysOp:-		Dave, G6CRV.
+
+If you are an AX.25 user in the area and only have 70cm's then this is the
+system for you! The main user port is on 432.650Mhz and has good coverage
+over the North Lancs. area. Typing 'BBS' at the prompt will connect you to
+GB7MBB via the 4m port. A 1996 QRZ CD-ROM callbook is also on-line here,
+typing FINGER CALL_SIGN will get you info from the callbook.
+
+PORTS:  A 9k6 baud ports connects to the international gateway. A 1200 baud
+port on 432.650MHz is the AX.25 user port and a 1200 baud 4m port links to
+GB7MBB and the WC node complex. There is a 9k6 baud link to the Preston area
+in the early planning stages.
+
+==============================================================================
+
+
+
+==============================================================================
+Common name:-	G0VGS
+AX.25 call:-	G0VGS
+NetRom node:-	none
+IP hostname:-	g0vgs.ampr.org
+IP address:-	44.131.25.151
+Location:-	Morecambe, North/Bare.
+OS:-            Linux.
+PBBS:-          TNOS.
+SysOp:-		Ian, G0VGS.
+
+If you are an AX.25 user in the area, and use 2m's then this is the system
+for you! The main user port is on 144.575MHz and has good coverage of the
+surrounding area. Typing 'BBS' at the prompt will connect you to GB7MBB via
+the new 9k6 link.
+
+PORTS: A 1200 baud AX.25 user port operates on 144.575MHz and a 1200 baud 4m
+port links to  G6CRV and the WC node complex.  A new 9k6 direct link to
+GB7MBB is now running and undergoing testing, thus connects to GB7MBB and
+onward to other world wide gateways from G0VGS will be greatly speeded up.
+==============================================================================
+
+
+
+==============================================================================
+Common name:-	G4RWO
+AX.25 call:-	G4RWO-5
+NetRom node:- 	none
+IP hostname:-	sys2.g4rwo.ampr.org
+IP address:-	44.131.1.130
+Location:-	Barrow-in-Furness.
+OS:-		MS-DOS.
+PBBS:-		JNOS.
+SysOp:-		Dave, G4RWO.
+
+If you use TCP/IP in the Barrow/Ulverston area then you should use G4RWO as
+your gateway. G4RWO has good coverage of Barrow and the surrounding area.
+Currently G4RWO uses a slightly different PBBS package to the other BayMAN
+nodes, but this will likely change in the not too distant future.
+
+PORTS: A 1200baud port operates on 144.625MHz for TCP/IP access. A 70cm 1200
+baud direct link to GB7MBB is in the testing stages. (This port is off-line
+at present 20/10/96).
+
+===============================================================================
+                     BayMAN Link Map, Version 0.2 (20th Oct 1996)
+===============================================================================
+             \|/
+              | [144.625 (Barrow-in-Furness TCP/IP)]
+   G4RWO------+
+     |    1k2
+     |
+     |
+     |                      \|/ [144.575 (AX.25 access)]
+     |                       |
+     |1k2         G0VGS------+
+     |              |    1k2
+     |           9k6|
+     |              |           9k6
+     +----------- GB7MBB---------------------+
+                    |                        |
+[144.625    \|/     |                        |
+(TCP/IP)]    | 1k2  |                        |
+             -------+                   G0UJE/LURPAC (WW Amprnet gateway)
+                                             | |
+[432.650 \|/                                 | |
+(AX.25,   |  1k2                9k6          | | (proposed 1k2)
+TCP/IP)]  +-------G6CRV----------------------+ +--------------- GB7NWI
+
+===============================================================================
+The above map gives a basic outline of the links and nodes of the BayMAN.
+Text in square brackets [ ] indicates user access port with details. Speeds
+of links are quoted in kilobits per second, e.g. 1k2=1200 baud, 9k6=9600 baud.
+===============================================================================
+
+If you have any questions or comments on the BayMAN, you can direct them to
+G6PHF@GB7MBB.#16.GBR.EU or mike@lurpac.lancs.ac.uk .
+Mike Dent, g6phf, 26/10/96.
