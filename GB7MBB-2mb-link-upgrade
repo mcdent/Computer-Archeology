@@ -1,0 +1,153 @@
+Notes on 2Mb, 2.4GHz link from Lancaster University to GB7MBB site.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Object:
+~~~~~~
+To upgrade the existing Lurpac amateur radio data link from 9600 bps to
+2Mb/s. The link is currently running near to capacity. Wavelan(tm) wireless
+network cards and linux PC's acting as routers are to be used.
+Lancaster University is at OS map ref SD486574 atop Bowland Tower @ 150 feet
+above ground level. GB7MBB is at OS map ref. SD439637 with the antenna approx.
+30 feet above ground level. The line of site path is 5 miles (8km). The beam
+heading from Bowland Tower to GB7MBB is 328 degrees.
+
+Diary of events.
+~~~~~~~~~~~~~~~~
+
+University end.
+
+Task.							Date.
+Assemble 25 element yagi.				DONE 13/5/97
+Make up 15' RG8/U coax with N-type and shrink down.	DONE 19/5/97
+Make up 12" tail with RG58				DONE 20/5/97
+Fit yagi and RG8/U coax on mast, Bowland Tower (BT)	DONE 20/5/97
+4 port ethernet hub to install  (BT).			DONE 21/5/97
+UTP cable from hub to PC (BT).				DONE 21/5/97
+PC to build for BT, minimum 486 with 8Mb.		DONE 21/5/97
+Install RH4.1 on PC, config and install Wavelan.	DONE 22/5/97
+Fit shelves (BT).					DONE 23/5/97
+Install PC (BT).					DONE 23/5/97
+Yagi alligned.						DONE 30/5/97
+Coax replaced with LDF4-50.				DONE  4/6/97
+Yagi replaced with new type.				DONE 18/7/97
+
+GB7MBB end.
+
+Task.							Date.
+Arrange for antenna brackets to be made.		DONE 18/5/97
+Paint brackets (Hammerite)				DONE 31/5/97
+Source Rawl bolts for brackets (10)			DONE 26/5/97
+Get 16' alloy pole from Heysham (Ian?)			DONE 23/5/97
+Fix brackets and pole to house.				DONE 26/5/97
+Assemble 25 element yagi.				DONE 13/5/97
+Make up 12" tail with RG58				DONE 20/5/97
+Fit antenna.						DONE 26/5/97
+Measure cable needed and make off N-type on one end.	DONE 26/5/97
+Install cable from antenna to shack and make off end.	DONE 26/5/97
+Fit wavelan card into Mungo and configure.		DONE 24/5/97
+Coax replaced with LDF4-50 and yagi aligned.		DONE 31/5/97
+Yagi replaced with new type.				DONE 18/7/97
+
+Miscellaneous.
+
+Task.							Date.
+Both PC's brought into workshop for tests.		DONE  2/6/97
+It was noticed efficiency of Wavelan cards seemed to
+deterioate as card temperature increased. Further tests
+may be needed.
+
+Fitted mini fans inside both PC's to aid cooling of	DONE  3/6/97
+Wavelan cards.
+
+Antenna at GB7MBB end may need slight re-alignment	DONE 7/6/97
+now coax at both ends has been changed for low loss.
+
+New yagis arrived.					    11/8/97
+
+Completed construction of new yagis including weather
+proofing etc.						DONE 15/8/97
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Costing of equipment.
+~~~~~~~~~~~~~~~~~~~~~
+2 x Wavelan ISA cards @ 500 ea. 1000 pound.
+20m of LDF4-50 coax at approx 5 pound/metre. 100 pound.
+2 x Tona 25 ele yagis @ 65 pound each. 130 pound
+
+Other parts.
+20 foot alluminium scaffold pole. 30 pounds
+2 x K stand off wall brackets. 30 pounds
+2 x 486 pc's. 600 pounds
+4 x connectors for Andrews LDF-450 cable. 80 pounds
+Shelving for Bowland Twr. 10 pounds
+Sealing tapes and greases. 10 pounds
+
+Estimated total cost of equipment for both ends is 2000 pounds.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Notes:
+~~~~~~
+It is thought that the Tonna yagi antennas may be operating outside there
+recommended operating frequency which would be reducing the effective gain.
+One option is to replace the antenna at the Bowland Tower end with a prime
+focus 1m diameter dish. A dish has been sourced, enquires have been made
+for a suitable feed for 2.4GHz. 5/6/97
+
+I fed the dimensions of the yagis into an antenna anaylsis program and the
+operating frequency, the results where very poor, some 6dbi of forward gain
+instead of the quoted 18.3dbi from the manafacturer. 10/6/97
+
+I have just discovered that Tonna make a second version of their 13cm yagi
+which is tuned almost exactly for the operating frequency of the Wavelan cards!
+2 of these new style yagis have been ordered. 17/7/97
+
+The yagis are not expected until early September, Tonna factory closes down
+for August! 17/7/97
+
+Good news! The yagis arrived today. I am off work but will be making a special
+trip to pick them up to begin construction.
+The yagis look almost identical to the others except the elements are slightly
+shorter. They also have a one piece boom which is much better that the
+jointed boom and they have a weatherproof cap to fit over the front of the
+cavity. 11/8.97.
+Diverted some routes from Lurpac gateway over 2mb link. 1/9/97
+
+Completed diverting all routes from Lurpac to gb7mbb.ampr.org via
+the new 2mb link. 7/9/97
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Path loss figures, Bowland Tower to GB7MBB in Morecambe:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Estimated free space path loss including round hill loss (5db)	-123db
+Gain of yagi 1							+ 18db
+Gain of yagi 2							+ 18db
+Output power from wavelan card.					+ 15db
+Loss of 10m of Andrews LDF4-50 coaxial feeder @ GB7MBB		- 1.5db
+loss of 5m of Andrews LDF4-50 coaxial feeder @ Bowland Twr.	- 0.75db
+								---------
+Overall path loss	                                        - 74.2db
+								---------
+Notes:
+~~~~~~
+The Wavelan specification states a receive sensitivity of -80db this leaves
+a margin of almost 6db. Therefore we can assume the link should work with these
+figures. If however the efficency of the yagis drops off at our operating
+frequency this may bring the overall path loss nearer to that of the receive
+sensitivity of the Wavelan cards.
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Thanks go to:
+~~~~~~~~~~~~~
+To G0NYD for fabricating two K brackets. G0VGS for assistance with antenna
+installation at Bowland Tower. G6OUT for assistance with antenna installation
+and alignment at GB7MBB end. G6CRV for length of RG8/U and LDF4-50 coaxes and
+alignment of beam at GB7MBB end. Barry Forde and Lancaster University for
+supply of 2Mb equipment. G4VAP for U clamps at last minute. Jim Mann for
+routing and configuration information for the link. Damien Cashman for help
+in changing coax feeder at Bowland Tower to LDF4-50.
+G4RWO and G6CRV for assistance with installation of replacement yagi and
+alignment at GB7MBB end. Michelle, G7WEX for putting up with me when things
+did not go well!
